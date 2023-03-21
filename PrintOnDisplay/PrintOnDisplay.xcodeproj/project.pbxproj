@@ -11,6 +11,7 @@
 		EA7EE76229C97F2A00B05000 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7EE76129C97F2A00B05000 /* ContentView.swift */; };
 		EA7EE76429C97F2A00B05000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7EE76329C97F2A00B05000 /* Assets.xcassets */; };
 		EA7EE76729C97F2A00B05000 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7EE76629C97F2A00B05000 /* Preview Assets.xcassets */; };
+		EA7EE76E29C97F9C00B05000 /* Assistant PrintOnDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7EE76D29C97F9C00B05000 /* Assistant PrintOnDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EA7EE76129C97F2A00B05000 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA7EE76329C97F2A00B05000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA7EE76629C97F2A00B05000 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA7EE76D29C97F9C00B05000 /* Assistant PrintOnDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assistant PrintOnDisplay.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EA7EE75F29C97F2A00B05000 /* PrintOnDisplayApp.swift */,
 				EA7EE76129C97F2A00B05000 /* ContentView.swift */,
+				EA7EE76F29C989B100B05000 /* Assistant PrintOnDisplay */,
 				EA7EE76329C97F2A00B05000 /* Assets.xcassets */,
 				EA7EE76529C97F2A00B05000 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				EA7EE76629C97F2A00B05000 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA7EE76F29C989B100B05000 /* Assistant PrintOnDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EE76D29C97F9C00B05000 /* Assistant PrintOnDisplay.swift */,
+			);
+			name = "Assistant PrintOnDisplay";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA7EE76229C97F2A00B05000 /* ContentView.swift in Sources */,
+				EA7EE76E29C97F9C00B05000 /* Assistant PrintOnDisplay.swift in Sources */,
 				EA7EE76029C97F2A00B05000 /* PrintOnDisplayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

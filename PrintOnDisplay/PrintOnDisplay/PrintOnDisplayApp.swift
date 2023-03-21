@@ -11,7 +11,10 @@ import SwiftUI
 struct PrintOnDisplayApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                ContentView()
+                PrintOnDisplayView()
+            }
         }
     }
 }
