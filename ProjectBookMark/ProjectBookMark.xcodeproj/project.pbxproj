@@ -11,6 +11,7 @@
 		EACB0B3229CEE59700E76534 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB0B3129CEE59700E76534 /* ContentView.swift */; };
 		EACB0B3429CEE59800E76534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACB0B3329CEE59800E76534 /* Assets.xcassets */; };
 		EACB0B3729CEE59800E76534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACB0B3629CEE59800E76534 /* Preview Assets.xcassets */; };
+		EACB0B3E29D00CC200E76534 /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB0B3D29D00CC200E76534 /* Projects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EACB0B3129CEE59700E76534 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EACB0B3329CEE59800E76534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EACB0B3629CEE59800E76534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EACB0B3D29D00CC200E76534 /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EACB0B2F29CEE59700E76534 /* ProjectBookMarkApp.swift */,
 				EACB0B3129CEE59700E76534 /* ContentView.swift */,
+				EACB0B3D29D00CC200E76534 /* Projects.swift */,
 				EACB0B3329CEE59800E76534 /* Assets.xcassets */,
 				EACB0B3529CEE59800E76534 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACB0B3E29D00CC200E76534 /* Projects.swift in Sources */,
 				EACB0B3229CEE59700E76534 /* ContentView.swift in Sources */,
 				EACB0B3029CEE59700E76534 /* ProjectBookMarkApp.swift in Sources */,
 			);
